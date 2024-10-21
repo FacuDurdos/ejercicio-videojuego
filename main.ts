@@ -6,3 +6,6 @@ let mago : Mago = new Mago("Mago");
 let luchador : Luchador = new Luchador("luchador");
 let arquero : Arquero = new Arquero("Arquero");
 
+console.log(mago);
+console.log(luchador);
+console.log(arquero);
