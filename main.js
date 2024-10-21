@@ -9,3 +9,6 @@ var arquero = new Arquero_1.Arquero("Arquero");
 console.log(mago);
 console.log(luchador);
 console.log(arquero);
+mago.atacar();
+mago.defender();
+console.log(mago);

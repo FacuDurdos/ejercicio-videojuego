@@ -29,19 +29,19 @@ var Mago = /** @class */ (function (_super) {
     };
     Mago.prototype.defender = function () {
         console.log("".concat(this.nombre, " lanza un escudo magico."));
-        this.escudo + 50;
+        this.escudo += 50;
     };
     Mago.prototype.aumentarVida = function () {
         console.log("".concat(this.nombre, " bebe una pocion curativa."));
-        this.vida + 50;
+        this.vida += 50;
     };
     Mago.prototype.aumentarNivel = function () {
         console.log("".concat(this.nombre, " sube de nivel."));
-        this.nivel + 1;
+        this.nivel += 1;
     };
     Mago.prototype.aumentarMana = function () {
         console.log("".concat(this.nombre, " bebe una pocion de mana."));
-        this.mana + 50;
+        this.mana += 50;
     };
     Mago.prototype.setMana = function (mana) {
         this.mana = mana;

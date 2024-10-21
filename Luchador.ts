@@ -9,22 +9,22 @@ export class Luchador extends Heroe {
 
     defender() {
         console.log(`${this.nombre} se equipa el escudo.`);
-        this.escudo + 100;
+        this.escudo += 100;
     }
 
     aumentarVida() {
         console.log(`${this.nombre} bebe una pocion curativa.`);
-        this.vida + 50; 
+        this.vida += 50; 
     }
 
     aumentarNivel() {
         console.log(`${this.nombre} sube de nivel.`);
-        this.nivel + 1;
+        this.nivel += 1;
     }
 
     aumentarFuerza() {
         console.log(`${this.nombre} incrementa su fuerza.`);
-        this.fuerza + 50;
+        this.fuerza += 50;
     }
 
     setFuerza(fuerza:number) {
